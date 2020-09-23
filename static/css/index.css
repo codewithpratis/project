@@ -1,0 +1,233 @@
+mark {
+  background-color: rgb(11, 158, 153);
+  color: blue;
+}
+hr {
+    border-top: 1px solid red;
+  }
+body {
+    background-color: lightgray;
+    background-image: url('../hotelpic.jpeg');
+  
+   /*background: "{{ url_for('static', filename= 'static/hotelpic.jpeg') }}";
+   background-size: 100% 100%;
+  height: 300px;
+  background-size: cover;*/
+  }
+  #menu li.other {
+    margin-left: 600px;
+  }
+  #menu li.other:hover{
+    background: blue;
+  }
+  #menu li.other1:hover{
+    background: blue;
+  }
+  #menu {
+    background-color: rgb(11, 158, 153);
+    height: 50px;
+  }
+  #menu li {
+    display: inline-block;
+    margin: 10px;
+  }
+  #menu li.active{
+    color: white;
+  }
+  #menu li a{
+      text-decoration: none;
+      color: white;
+  }
+  #menu li:hover{
+      background: black;
+  }
+  #menu li a,
+  #menu li.active a{
+      padding: 5px 30px;
+      display: block;
+  }
+  #menu li.active a{
+      color: #fff;
+  }
+  #menu{
+      position:fixed;
+      top:0;
+      left:0;
+      height: 50px;
+      z-index: 80;
+      width: 100%;
+      padding: 0;
+      margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .ml2 .li{
+    font-style: italic; 
+    font-size: medium;
+    font-weight: 250;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+  }
+  
+  .ml1 {
+      font-style: italic;
+      font-weight: 500;
+      font-size: 3.5em;
+      text-align: center;
+      margin-top: 200px;
+      color: blue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .ml1 .letters {
+      line-height: 1em;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 20px;
+      
+    }
+    
+    .ml1 .text-wrapper {
+      position: relative;
+      padding-top: 0.1em;
+      padding-right: 0.05em;
+      padding-bottom: 0.15em;
+      text-align: center;
+    }
+    
+    .ml1 .line {
+      opacity: 0;
+      position: relative;
+      left: 50;
+      height: 5px;
+      width: 100%;
+      background-color: #fff;
+      transform-origin: 0 0;
+    }
+    
+    .ml1 .line1 { top: 0; }
+    .ml1 .line2 { bottom: 0; }
+  
+  .subletters {
+    color: rgb(11, 158, 153); 
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  .subletters {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:normal;
+    position: relative;
+    left: -18.5%;
+    text-align: center;
+    margin-bottom: 250px; 
+    font-size: 25px;
+    margin-left: 35px;
+    /* color:#ff6347; */
+  }
+  
+  
+  .subletters {
+    position: absolute; 
+    width: 400px;
+    opacity: 0;
+  }
+  
+  .letter {
+    display: inline-block;
+    position: relative;
+    transform: translateZ(2px);
+    transform-origin: 50% 50% 25px;
+  }
+  
+  .letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .letter.behind {
+    transform: rotateX(-90deg);
+  }
+  
+  .letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Set the fixed height of the footer here */
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(11, 158, 153);
+  }
+  #footer p {
+    margin: 0;
+    font-size: 16px;
+    position: absolute;
+    color: white;
+    margin-left: 550px;
+  }
+  
+  .section{
+    background-color: black;
+  }
+  
+  #skill_1{
+    color: green;
+    margin-top: 50px;
+    /* margin-left: 300px;
+    margin-bottom: 10px;
+    margin-right: 10px;  */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+  }
+  #skill_11{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* margin-top: 30px;
+    margin-left: 300px; */
+    text-align: center;
+  
+  }
+  
+  #skill_3{
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 200px; */
+    text-align: right;
+  }
+  
+  .card {
+    margin: 100px;
+  }
+  h5{
+    color: black;
+    margin: 90px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  h6 {
+    color: black;
+    margin: 90px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  

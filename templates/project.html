@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking Demand Prediction</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/project.css">
+</head>
+
+<body>
+  <ul id="menu">
+    <li data-menuanchor="page1" class="active"><a href="index.html">Home</a></li>
+    <li data-menuanchor="page2"><a href="project.html">Project Overview</a></li>
+    <li data-menuanchor="page5"><a href="/api">Data</li>
+    <li data-menuanchor="page3"><a href="graphs.html">Plots</a></li>
+    <li data-menuanchor="page6" class="other"><a href="https://github.com/codewithpratis">GitHub</a></li>
+  </ul>
+
+  <h1 class="ml1">
+    <span class="text-wrapper">
+      <span class="line line1"></span>
+      <span class="letters">Project Overview</span>
+      <br>
+    </span>
+  </h1>
+<hr>
+<p>Project Overview</p>
+
+<p>
+  <ul class="a">
+    We started out with the jupyter notebook to import the CSV file that we downloaded from <a href="https://www.kaggle.com/jessemostipak/hotel-booking-demand" target="_blank">Kaggle DataSet. </a>
+    We used pandas, matplotlib, and Numpy methods to manupulate the data. After manipulating the data, we had alot of questions that we wanted to answer.
+    Some of the questions that we wanted to tackle were: 
+    <li>
+    How many bookings were canceled and not?
+  </li>
+  <li>
+    Which hotel is more popular?
+  </li>
+  <li>
+    How much of bookings were done each year?
+  </li>
+  <li>
+    Which year was the busiest?
+  </li>
+  <li>
+    Did Deposit Type have any effects on cancelations?
+  </li>
+  <li>
+    What is a correlations between lead time and cancelations?
+  </li>
+  <li>
+    How did people booked the room?
+    What's the most popular way to book the room?
+  </li>
+  <li>
+    Out of singles, couples, and family, who were the most popular ones to stay in the hotel?
+  </li>
+  <hr>
+  <b><center>However, the main questions is how can these all be the predictor of the cancelations that happened over the years?</center></b>
+  <br>
+  In order to answer this question, we used Machine Learning method by applying Machine Learning Libraries such as:
+  <li>
+    Sklearn
+  </li>
+  <li>
+    Tensor Flow
+  </li>
+
+  So we used these ML libraries to predict the cancelations. 
+<hr>
+<br>
+  <b><center>Factors Influencing Hotel Cancelations</center></b>
+  
+  <b>Observation Analysis</b>
+<li>
+  We found out that the prediction was 77.4% accurate.
+</li>
+<li>
+  We used pandas get dummies function, which made it easier since it encodes the categorical data.
+</li>
+<li>
+  We decided to limit the number of epochs to 20 after looking at the original 100. 
+</li>
+<li>
+  The accuracy and loss changed slightly after epoch 6.
+</li>
+<li>
+  When we plot the data, 77% of the data seems to be accurately predicted.
+</li>
+<br>
+<hr>
+<b><center>Obstacles/Issues Encountered</center></b>
+<li>
+  We had little hard time using the get dummies function to convert the categorical data into the number of feature to be used. 
+</li>
+<li>
+  Each value became its own column. 
+</li>
+<li>
+  Doing it this way, could have made for a huge number of columns depending on the number of different values of categorical data in each column.
+</li>
+<li>
+  We also had a difficulty finding the meaning of calculated result loss of 0.45, which we calculated using categorical cross entropy
+</li>
+<br>
+<br>
+<br>
+<hr>
+  </ul>
+    
+</p>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>Created By Prateetya Bajracharya | 2020</p>
+  </div>
+
+ 
+</body>
+
+</html>

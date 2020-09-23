@@ -1,0 +1,173 @@
+hr {
+    border-top: 1px solid red;
+  }
+body {
+    background-color: lightgray;
+}
+h5 {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: rgb(11, 158, 153);
+}
+a.card-link {
+  border: 1px solid red; 
+  padding-right: 10px;
+  text-align: center;
+}
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(11, 158, 153);
+
+}
+p2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(11, 158, 153);
+}
+p3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(11, 158, 153);
+}
+p4{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(11, 158, 153);
+}
+p5{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(11, 158, 153);
+}
+
+#menu li.other {
+    margin-left: 600px;
+  }
+  #menu li.other:hover{
+    background: blue;
+  }
+
+  #menu li.other1:hover{
+    background: blue;
+  }
+  #menu {
+    background-color: rgb(11, 158, 153);
+    height: 50px;
+  }
+  #menu li {
+    display: inline-block;
+    margin: 10px;
+  }
+  #menu li.active{
+    color: white;
+  }
+  #menu li a{
+      text-decoration: none;
+      color: white;
+  }
+  #menu li:hover{
+      background: black;
+  }
+  #menu li a,
+  #menu li.active a{
+      padding: 5px 30px;
+      display: block;
+  }
+  #menu li.active a{
+      color: #fff;
+  }
+  #menu{
+      position:fixed;
+      top:0;
+      left:0;
+      height: 50px;
+      z-index: 80;
+      width: 100%;
+      padding: 0;
+      margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Set the fixed height of the footer here */
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(11, 158, 153);
+  }
+  #footer p {
+    margin: 0;
+    font-size: 16px;
+    position: absolute;
+    color: white;
+    margin-left: 550px;
+  }
+  
+  .section{
+    background-color: black;
+  }
+
+  .ml1 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 80px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .ml1 .letters {
+    line-height: 1em;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  }
+
+
+  .container {
+    background-color: white;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .navbar {
+           padding-left: 50px;
+  }
+  
+  .navbar-brand {
+                 background-color: rgb(12, 173, 167);
+                 font-family: times new roman;
+                 font-weight: bold;
+                 color: white;
+  }
+  
+  /* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
+  @media (max-width: 480px) {
+    .navbar {
+      background-color: rgb(12, 173, 167);
+  }
+  }
+
+  .div1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+  }
+  .card {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    display: inline-block;
+  }
